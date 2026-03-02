@@ -8,15 +8,17 @@
 <style>
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
-.container {
-  max-width: 900px;
-  margin: 20px auto 40px auto;
+.wrapper {
+  width: 100%;
+  max-width: 700px;
   text-align: center;
-  padding: 0 15px;
+  padding: 20px 15px 40px 15px;
 }
 
 .buttons {
@@ -31,11 +33,6 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
-  transition: 0.2s ease;
-}
-
-.btn:hover {
-  opacity: 0.85;
 }
 
 .phone {
@@ -52,15 +49,13 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto;
-  border-radius: 12px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="container">
+<div class="wrapper">
 
 <div class="buttons">
 <a class="btn phone" href="tel:0906795553">📞 立即訂購</a>
